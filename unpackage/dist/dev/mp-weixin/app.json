@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "my-goodlist/my-goodlist",
+        "my-search/my-search"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "喵的app",
+    "navigationBarBackgroundColor": "#ffaaff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#A9A9A9",
+    "selectedColor": "#696969",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./static/首页2.png",
+        "selectedIconPath": "static/首页.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/用户2.png",
+        "selectedIconPath": "static/用户.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,72 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/home/home",
+		    "style" :                                                                                    
+		    {
+		        "app-plus": {
+		        	"titleNView": false
+		        }
+				
+		    }
+		    
+		},
+		{
+		    "path" : "pages/my/my",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+				{
+					"path": "my-goodlist/my-goodlist",
+					"style": {
+						
+					}
+				}
+			    ,{
+                    "path" : "my-search/my-search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "喵的app",
+		"navigationBarBackgroundColor": "#ffaaff",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"tabBar": {
+		"color": "#A9A9A9",
+		"selectedColor":"#696969",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "./static/首页2.png",
+				"selectedIconPath": "static/首页.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/用户2.png",
+				"selectedIconPath": "static/用户.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
